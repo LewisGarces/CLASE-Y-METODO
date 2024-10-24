@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Degradado de rojo oscuro a azul oscuro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-header {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 1.5rem;
+    border-bottom: none;
+    text-align: center;
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn {
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    border: none; /* Elimina el borde */
+}
+.text-danger {
+    font-size: 0.875rem;
+}
+.icon {
+    margin-right: 10px;
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

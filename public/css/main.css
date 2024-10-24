@@ -1,0 +1,56 @@
+/* Fondo con la imagen de la URL */
+body {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-tecnologia-circuito-alta-tecnologia-digital_29971-542.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para encabezados */
+h2, h3, h5 {
+    color: dark; /* Color de texto oscuro */
+}
+
+/* Botón con icono */
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px; /* Espaciado entre iconos */
+}
+
+/* Tabla */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0; /* Margen entre la tabla y otros elementos */
+}
+
+.table thead {
+    background-color: #f8f9fa;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    color: #495057;
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Cambia el color al pasar el mouse */
+}
+
+.table {
+    margin-top: 20px; /* Espacio entre la tabla y el encabezado */
+}
+
+/* Tarjetas */
+.card {
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}

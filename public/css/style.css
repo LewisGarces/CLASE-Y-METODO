@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Degradado de rojo oscuro a azul oscuro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.login-container {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Mismo degradado del fondo */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h3 {
+    font-weight: bold;
+    color: #ffffff; /* Título en blanco */
+    margin-bottom: 20px;
+}
+
+h3 i {
+    font-size: 60px;
+    display: block;
+    color: #ffffff; /* Ícono en blanco */
+    margin-bottom: 10px;
+}
+
+.login-container i.fas.fa-sign-in-alt {
+    font-size: 80px; /* Ícono más grande */
+    color: #ffffff; /* Ícono blanco */
+    margin-bottom: 20px; /* Espacio entre el ícono y el título */
+}
+
+.form-label {
+    color: #ffffff; /* Labels en blanco */
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Mismo degradado del fondo */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px; /* Redondear botón */
+}
+
+.icon-container {
+    position: relative;
+}
+
+.line-input {
+    border: none;
+    border-bottom: 2px solid #ffffff; /* Línea blanca en lugar de un input rectangular */
+    border-radius: 0;
+    background-color: transparent;
+    color: #ffffff; /* Texto del input en blanco */
+    padding-left: 40px;
+}
+
+.line-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.icon-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff; /* Íconos en blanco */
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: #ffffff;
+    box-shadow: none;
+}
